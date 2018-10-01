@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+	font-family: Lato;
+	color: #fff;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+
+.ba-intro {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 67.4%, #000000 100%), url(../img/main_image.jpg) no-repeat 0 8% scroll;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 352px 0 240px; 
+}
+
+.ba-header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+
+}
+
+
+.ba-intro-title, .ba-logo img {
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+}
+
+.ba-header-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.ba-menu {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+
+.ba-menu a {
+	margin-left: 31px;
+	text-decoration: none;
+	color: #fff; 
+}
+
+.ba-burger {
+	line-height: 1;
+}
+
+
+.ba-title-top {
+	font-family: 'Times New Roman';
+	color:  #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 1.8px;
+	line-height: 30px;
+	opacity: 0.8;
+}
+
+.ba-title-main {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.ba-button {
+	display: inline-block;
+	padding: 20px 80px;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    background-color: rgba(246, 150, 121, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+
+} 
+
+
+.ba-button:hover {
+	background: rgba(0, 0, 0, 0.616);
+	color: #fff;
+}
+
+.ba-header-description {
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 41px;
+	
+}
+
+.ba-sub-link {
+	color: #fff;
+}
+
+.ba-sub-link:hover {
+	color: #b1a5a5;
+}
+
+/*.ba-menu a:hover  {
+	padding-bottom: 20px;
+	border-bottom: 2px solid #fff;
+}
+*/
+
+
+.ba-menu:hover a:not(:hover) {
+	color: transparent;
+	text-shadow: 0 0 2px #fff;
+}
+
+
+a.ba-burger:hover {
+	border-bottom: 0px solid transparent;
+}
+
+
+
+
+.ba-menu li:not(:last-child) a:hover  {
+	padding-bottom: 20px;
+	border-bottom: 2px solid #fff;
+}
