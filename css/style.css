@@ -2,7 +2,6 @@
 
 body {
 	font-family: Lato;
-	color: #fff;
 }
 
 /* Layout */
@@ -73,7 +72,10 @@ textarea {
 }
 
 
+
+
 .ba-intro-title, .ba-logo img {
+
 	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
 }
 
@@ -183,4 +185,124 @@ a.ba-burger:hover {
 .ba-menu li:not(:last-child) a:hover  {
 	padding-bottom: 20px;
 	border-bottom: 2px solid #fff;
+}
+
+
+
+
+.ba-icons {
+    display: flex;
+    text-align: center;
+    padding: 101px 0 101px 0;
+}
+
+
+.ba-icons a {
+	color: #000;
+	text-decoration: none;
+}
+
+.ba-icons a + a {
+	margin-left: 51px;
+}
+
+.ba-icons__title {
+
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+
+.ba-icons__desc {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+
+.ba-introduction {
+	padding-top: 102px;
+	display: flex;
+
+}
+
+.ba-mobile-sec {
+	background-color: #f7f7f7;
+}
+
+.ba-introduction-items {
+	margin: 80px 0 0 116px;
+}
+
+.ba-introduction-items__title {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.ba-introduction-items {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.ba-store-button {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.ba-store-button:hover {
+	opacity: 0.7;
+}
+
+.ba-cuisines-description:hover {
+	background: #0000008f;
+}
+
+
+.ba-cuisines {
+	margin-top: 51px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.ba-cuisines-title {
+	margin-top: 100px;
+	text-align: center;
+}
+ 
+
+.ba-title__line:after {
+	width: 88px;
+	border-bottom: 1px solid #f57365;
+}
+
+.ba-cuisines-item {
+	flex-basis: 320px;
+	flex-grow: 1;
+	position: relative;
+	color: #fff;
+	text-shadow: 1px 0 40px #000;
+	text-decoration: none;
+}
+
+.ba-cuisines-item img {
+	display: block;
+	width: 100%;
+
+}
+
+
+.ba-cuisines-description {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
