@@ -190,23 +190,17 @@ a.ba-burger:hover {
 
 
 
-.ba-icons {
+.ba-cards {
     display: flex;
     text-align: center;
     padding: 101px 0 101px 0;
 }
 
 
-.ba-icons a {
-	color: #000;
-	text-decoration: none;
-}
 
-.ba-icons a + a {
-	margin-left: 51px;
-}
 
-.ba-icons__title {
+
+.ba-cards__title {
 
 	font-size: 18px;
 	font-weight: 700;
@@ -214,7 +208,7 @@ a.ba-burger:hover {
 }
 
 
-.ba-icons__desc {
+.ba-cards__desc {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
