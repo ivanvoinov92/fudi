@@ -267,11 +267,11 @@ a.ba-burger:hover {
 }
  
 
-.ba-title__line:after {
+/*.ba-title__line:after {
 	width: 88px;
 	border-bottom: 1px solid #f57365;
 }
-
+*/
 .ba-cuisines-item {
 	flex-basis: 320px;
 	flex-grow: 1;
